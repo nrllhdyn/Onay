@@ -127,7 +127,7 @@ figure {
 
 @media screen and (max-width: 768px) {
     .fh5co-nav .menu-1 {
-        display: none;
+        display: flex;
     }
 }
 
