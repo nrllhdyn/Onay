@@ -22,7 +22,7 @@ body {
     background: #fff;
 }
 
-#page {
+#anasayfa {
     position: relative;
     overflow-x: hidden;
     width: 100%;
@@ -32,12 +32,12 @@ body {
     transition: 0.5s;
 }
 
-.offcanvas #page {
+.offcanvas #anasayfa {
     overflow: hidden;
     position: absolute;
 }
 
-.offcanvas #page:after {
+.offcanvas #anasayfa:after {
     -webkit-transition: 2s;
     -o-transition: 2s;
     transition: 2s;
