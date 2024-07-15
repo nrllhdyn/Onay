@@ -45,8 +45,8 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="fh5co-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
+		$('#anasayfa').prepend('<div id="fh5co-offcanvas" />');
+		$('#anasayfa').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#fh5co-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
@@ -102,7 +102,7 @@
 			event.preventDefault();
 
 		});
-	};
+	}; 
 
 	var fullHeight = function() {
 
@@ -281,6 +281,7 @@
 	  	});
 
 	};
+	
 
 	
 	$(function(){

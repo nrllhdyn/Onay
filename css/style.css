@@ -127,7 +127,7 @@ figure {
 
 @media screen and (max-width: 768px) {
     .fh5co-nav .menu-1 {
-        display: flex;
+        display: none;
     }
 }
 
@@ -238,7 +238,7 @@ figure {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -965,7 +965,41 @@ figure {
     letter-spacing: 2px;
 }
 
+#fh5co-testimonial .testimony-slide {
+    text-align: center;
+}
 
+#fh5co-testimonial .testimony-slide span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: block;
+}
+
+#fh5co-testimonial .testimony-slide figure {
+    margin-bottom: 10px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+#fh5co-testimonial .testimony-slide figure img {
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#fh5co-testimonial .testimony-slide blockquote {
+    border: none;
+    margin: 30px auto;
+    width: 70%;
+    position: relative;
+    padding: 0;
+}
 
 @media screen and (max-width: 992px) {
     #fh5co-testimonial .testimony-slide blockquote {
@@ -1818,6 +1852,7 @@ figure {
 #fh5co-practice .fh5co-heading {
     margin-bottom: 5rem;
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
